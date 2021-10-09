@@ -1,6 +1,8 @@
 # python
 
--[[pandas]]
+- [[pandas]]
+  - df.shape
+  - df.columns
 sorted(List)
 List.sort()
 - unpack argument

@@ -2,7 +2,7 @@
 
 ## Layout
 - [[my_first_fpga.bdf]]
-- verilog file [simple_counter] [[verilog1.v]], create symbol file
+- verilog file "simple_counter" [[verilog1.v]], create symbol file
 - use IP catalog add Library/basic function/clocks/PLL/Altera PLL  
   - choose 50M output 5M, no lock output  
 - input to 50M, output wire counter[31..0]
@@ -16,7 +16,7 @@
 - Tools > TimeQuest Timing Analyzer
 - File > New SDC file (Synopsys Design Constraints)[[my_first_fpga.sdc]]
 ## Compile Your Design
-- Compilation Report 
+- Processing > Start Compilation , get Compilation Report 
 - generate SRAM Object File (.sof)
 - Tools > Programmer  [[my_first_fpga.cdf]]
   - Hardware Setup > select USB1
